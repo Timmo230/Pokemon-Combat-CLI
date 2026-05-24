@@ -12,7 +12,7 @@ Juego de combate por turnos en terminal inspirado en Pokemon. Obtiene datos de l
 Desde la carpeta del proyecto:
 
 ```bash
-cd "/home/matias/Escritorio/pokemon/pokemonProyect"
+cd ruta/al/proyecto
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
@@ -35,4 +35,4 @@ Tambien puedes ejecutarlo sin activar el entorno:
 ## Notas
 
 - La primera ejecucion puede tardar porque genera `todos_los_pokemons.pkl`.
-- El juego debe ejecutarse desde esta carpeta para que la cache se lea y se escriba en la ruta esperada.
+- El juego puede ejecutarse desde cualquier ubicacion si usas `main.py` o `pokemon_combat.py` dentro de la carpeta del proyecto.
